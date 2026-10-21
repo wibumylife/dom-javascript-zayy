@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Praktik DOM Kelas 11</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; line-height: 1.6; }
+        .card { border: 1px solid #ccc; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+        .dark-mode { background-color: #222; color: #fff; }
+        .completed { text-decoration: line-through; color: gray; }
+    </style>
+</head>
+<body>
+    
+    <h1>Razalfa Aindi Siregar</h1>
+    <h2>Latihan Praktik DOM JavaScript</h2>
+
+    <!-- Soal 1: Mengubah Teks & Styling -->
+    <div class="card" id="card-mode">
+        <h3 id="judul">Selamat Datang di Laboratorium Komputer</h3>
+        <button id="btn-ubah-teks">Ubah Judul</button>
+        <button id="btn-toggle-theme">Toggle Dark Mode</button>
+    </div>
+
+    <!-- Soal 2: Interactive Counter -->
+    <div class="card">
+        <h3>Counter Angka</h3>
+        <h1 id="angka">0</h1>
+        <button id="btn-tambah">+ Tambah</button>
+        <button id="btn-kurang">- Kurang</button>
+        <button id="btn-reset">Reset</button>
+    </div>
+
+    <!-- Soal 3: Mini To-Do List (Create & Append Element) -->
+    <div class="card">
+        <h3>Daftar Tugas (To-Do List)</h3>
+        <input type="text" id="input-tugas" placeholder="Ketik tugas baru...">
+        <button id="btn-tambah-tugas">Tambah</button>
+        <ul id="daftar-tugas"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
